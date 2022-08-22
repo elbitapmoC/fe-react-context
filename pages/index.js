@@ -42,7 +42,6 @@ export default function Home() {
         />
 
         <CounterCTXUseReducer title="Reducers" description="C2." />
-        <EcommerceZustand />
       </div>
       <Footer />
     </div>
