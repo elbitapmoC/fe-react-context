@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import CounterUseState from "../components/CounterUseState";
 import CounterCTXUseState from "../components/CounterCTXUseState";
 import CounterCTXUseReducer from "../components/CounterCTXUseReducer";
+import EcommerceZustand from "./ecommerce/ecommerce-zustand";
+
 export default function Home() {
   const [count, setCount] = useState(1);
 
@@ -40,6 +42,7 @@ export default function Home() {
         />
 
         <CounterCTXUseReducer title="Reducers" description="C2." />
+        <EcommerceZustand />
       </div>
       <Footer />
     </div>
